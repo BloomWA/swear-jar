@@ -1,0 +1,36 @@
+{
+  "name": "digital-swear-jar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "@fontsource/lilita-one": "^5.3.0",
+    "@huggingface/transformers": "3.7",
+    "canvas-confetti": "1.9",
+    "framer-motion": "^12.43.0",
+    "matter-js": "^0.20.0",
+    "react": "19.1",
+    "react-dom": "19.1",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/dom-speech-recognition": "^0.0.12",
+    "@types/matter-js": "^0.20.2",
+    "@types/react": "19.1",
+    "@types/react-dom": "19.1",
+    "@vitejs/plugin-react": "^5.2.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "5.8",
+    "vite": "^7.3.7",
+    "vitest": "^3.2.7"
+  }
+}
